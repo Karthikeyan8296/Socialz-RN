@@ -4,12 +4,13 @@ import {getFontFamily} from './src/assets/fonts/helper';
 
 function App() {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1 bg-white">
       <View>
         <Text
+          className="text-black"
           style={{
             fontSize: 50,
-            fontFamily: getFontFamily('Inter_18pt', '100'),
+            fontFamily: getFontFamily('Inter_18pt', '300'),
           }}>
           Hello world
         </Text>
