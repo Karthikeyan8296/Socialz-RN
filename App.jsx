@@ -1,6 +1,7 @@
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
 import {getFontFamily} from './src/assets/fonts/helper';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           }}>
           Hello world
         </Text>
+        <View>
+          <Icon name="delete" size={50} color={'black'} />
+        </View>
       </View>
     </SafeAreaView>
   );
