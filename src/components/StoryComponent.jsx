@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const StoryComponent = ({userName, profileImage}) => {
   return (
-    <View className="flex items-center justify-center mx-1">
+    <View className="flex items-center justify-center mx-2">
       <View>
         <UserProfileImage profileImage={profileImage} />
       </View>
