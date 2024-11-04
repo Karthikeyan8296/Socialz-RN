@@ -9,10 +9,8 @@ import {
 const HomeScreen = () => {
   return (
     <SafeAreaView>
-      <View>
-        <HeaderComponent Lable="Let's Explore" />
-        <UserStoriesComponents />
-      </View>
+      <HeaderComponent Lable="Instagram" />
+      {/* //Stories component are given in the userPostcomponents as header// */}
       <View>
         <UserPostComponent />
       </View>
