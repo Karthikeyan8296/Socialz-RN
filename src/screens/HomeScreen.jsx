@@ -1,6 +1,10 @@
 import {View, Text, SafeAreaView} from 'react-native';
 import React from 'react';
-import {HeaderComponent, UserStoriesComponents} from '../components';
+import {
+  HeaderComponent,
+  UserStoriesComponents,
+  UserPostComponent,
+} from '../components';
 
 const HomeScreen = () => {
   return (
@@ -8,6 +12,9 @@ const HomeScreen = () => {
       <View>
         <HeaderComponent Lable="Let's Explore" />
         <UserStoriesComponents />
+      </View>
+      <View>
+        <UserPostComponent />
       </View>
     </SafeAreaView>
   );
